@@ -1,0 +1,15 @@
+name: miuul
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python>=3.8
+  - biopython
+  - orthofinder
+  - blast
+  - cd-hit
+  - cdhit-reader
+  #- interproscan this requires huge space in the disk
+  #- pip:
+  #  - tmhmm.py
+  #  - deepsig-biocomp
